@@ -3,11 +3,18 @@
 <head>
 <title>WEB1 - Java Script</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <!--ul, ol(number)-->
 <body>
-    <h1><a href = "index.html">WEB</href></h1>
+    <h1><a href = "index.html">WEB</a></h1>
+    <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';
+    document.querySelector('body').style.color = 'white';">
+    <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';">
 <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
@@ -15,7 +22,10 @@
 </ol>
 
 <h2>Java Script</h2>
-<p>자바 스크립트</p>
+<p>Jave script, often abbreviated as JS, is a high-level, dynamic, weakly typed,
+    prototype-based, multi-paradigm and interpreted programming language. Alongside 
+    HTML
+</p>
 
 <!-- h1~h6 헤드를 나타내는 태그 숫자가 커질수록 글씨 크기는 작아짐-->
 
