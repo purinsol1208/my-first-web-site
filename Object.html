@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Object</title>
+</head>
+<body>
+    <h1>Object</h1>
+    <h2>Create</h2>
+    <script>
+        var coworkers = {"programmer" : "egoing", "designer" : "leezche"};
+        document.write("programmer : " + coworkers.programmer + "<br>");
+        document.write("designer : " + coworkers.designer + "<br>");
+        coworkers.bookkeepers = "duru";
+        document.write("bookkeepers : " + coworkers.bookkeepers + "<br>");
+        coworkers["data scientist"] = "seungwoo";
+        document.write("data scientist : " + coworkers["data scientist"] + "<br>")
+    </script>
+</body>
+</html>
